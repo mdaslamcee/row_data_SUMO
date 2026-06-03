@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <taz-files value="spe.taz.xml"/>
+        <od-matrix-files value="spe.od"/>
+    </input>
+
+</configuration>

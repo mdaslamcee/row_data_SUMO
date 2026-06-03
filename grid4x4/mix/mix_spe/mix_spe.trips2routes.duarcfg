@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="grid4x4.net.xml"/>
+        <route-files value="spe.odtrips.xml"/>  
+    </input>
+    
+    <output>
+        <output-file value="mix_spe.odtrips.rou.xml"/>
+    </output>
+</configuration>

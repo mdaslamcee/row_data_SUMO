@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <taz-files value="evening.taz.xml"/>
+        <od-matrix-files value="evening.od"/>
+    </input>
+
+</configuration>

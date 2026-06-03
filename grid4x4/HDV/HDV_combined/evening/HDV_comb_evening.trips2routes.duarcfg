@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="grid4x4.net.xml"/>
+        <route-files value="evening.odtrips.xml"/>  
+    </input>
+    
+    <output>
+        <output-file value="HDV_comb_evening.odtrips.rou.xml"/>
+    </output>
+</configuration>

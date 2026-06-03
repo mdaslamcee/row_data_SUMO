@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-30 00:17:14 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="grid4x4.net.xml"/>
+        <route-files value="spe.odtrips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="mix_spe.odtrips.rou.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="mix_spe63" type="veh_combo_3" depart="0.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np16_nt1 nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe283" type="veh_combo_3" depart="2.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe245" type="veh_combo_3" depart="11.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe88" type="veh_combo_3" depart="16.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt8 nt8_nt4 nt4_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe9" type="veh_combo_3" depart="18.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt8 nt8_nt4 nt4_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe412" type="veh_combo_3" depart="19.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe391" type="veh_combo_3" depart="23.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np9 np9_nt16 nt16_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe198" type="veh_combo_3" depart="36.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt8 nt8_nt4 nt4_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe142" type="veh_combo_3" depart="39.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_np16 np16_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe5" type="veh_combo_3" depart="55.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe418" type="veh_combo_3" depart="77.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe111" type="veh_combo_3" depart="81.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe223" type="veh_combo_3" depart="101.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt8 nt8_nt4 nt4_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe399" type="veh_combo_3" depart="106.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe367" type="veh_combo_3" depart="107.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np8_nt16 nt16_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe370" type="veh_combo_3" depart="114.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe129" type="veh_combo_3" depart="116.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_np13 np13_nt13 nt13_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe318" type="veh_combo_3" depart="150.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe19" type="veh_combo_3" depart="163.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np8_nt16 nt16_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe92" type="veh_combo_3" depart="169.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt11 nt11_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe137" type="veh_combo_3" depart="179.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe73" type="veh_combo_3" depart="186.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe378" type="veh_combo_3" depart="187.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_np14 np14_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe256" type="veh_combo_3" depart="202.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe62" type="veh_combo_3" depart="207.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe333" type="veh_combo_3" depart="208.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe165" type="veh_combo_3" depart="211.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np8_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe68" type="veh_combo_3" depart="212.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe147" type="veh_combo_3" depart="214.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe401" type="veh_combo_3" depart="220.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe409" type="veh_combo_3" depart="220.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe264" type="veh_combo_3" depart="222.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe362" type="veh_combo_3" depart="224.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe27" type="veh_combo_3" depart="238.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe274" type="veh_combo_3" depart="244.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt8 nt8_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe422" type="veh_combo_3" depart="260.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe403" type="veh_combo_3" depart="276.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np10_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe356" type="veh_combo_3" depart="280.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe197" type="veh_combo_3" depart="292.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe268" type="veh_combo_3" depart="305.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe260" type="veh_combo_3" depart="312.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe413" type="veh_combo_3" depart="314.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np5_nt4 nt4_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe326" type="veh_combo_3" depart="320.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt12 nt12_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe98" type="veh_combo_3" depart="322.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe70" type="veh_combo_3" depart="325.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe180" type="veh_combo_3" depart="326.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe343" type="veh_combo_3" depart="327.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe400" type="veh_combo_3" depart="331.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe369" type="veh_combo_3" depart="340.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np7_nt12 nt12_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe183" type="veh_combo_3" depart="349.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe49" type="veh_combo_3" depart="353.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe207" type="veh_combo_3" depart="357.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe50" type="veh_combo_3" depart="363.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe87" type="veh_combo_3" depart="363.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np10_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe393" type="veh_combo_3" depart="368.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe83" type="veh_combo_3" depart="368.78" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_np13 np13_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe7" type="veh_combo_3" depart="381.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt5 nt5_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe350" type="veh_combo_3" depart="382.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np7_nt12 nt12_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe65" type="veh_combo_3" depart="386.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe404" type="veh_combo_3" depart="393.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe447" type="veh_combo_3" depart="396.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe95" type="veh_combo_3" depart="397.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe444" type="veh_combo_3" depart="409.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe42" type="veh_combo_3" depart="410.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np5_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe299" type="veh_combo_3" depart="422.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe33" type="veh_combo_3" depart="423.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe437" type="veh_combo_3" depart="425.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe208" type="veh_combo_3" depart="429.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe30" type="veh_combo_3" depart="433.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe26" type="veh_combo_3" depart="436.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe259" type="veh_combo_3" depart="446.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt2 nt2_np2 np2_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe426" type="veh_combo_3" depart="452.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np16_nt1 nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe445" type="veh_combo_3" depart="456.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe205" type="veh_combo_3" depart="464.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe430" type="veh_combo_3" depart="476.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_np13 np13_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe1" type="veh_combo_3" depart="476.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe271" type="veh_combo_3" depart="490.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_np12 np12_nt13 nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe178" type="veh_combo_3" depart="505.51" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_np3 np3_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe241" type="veh_combo_3" depart="560.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe152" type="veh_combo_3" depart="568.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe336" type="veh_combo_3" depart="573.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe176" type="veh_combo_3" depart="574.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt12 nt12_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe102" type="veh_combo_3" depart="581.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe61" type="veh_combo_3" depart="587.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe143" type="veh_combo_3" depart="592.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe77" type="veh_combo_3" depart="617.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe394" type="veh_combo_3" depart="635.18" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_np5 np5_nt4 nt4_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe266" type="veh_combo_3" depart="640.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe296" type="veh_combo_3" depart="663.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe293" type="veh_combo_3" depart="665.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe277" type="veh_combo_3" depart="666.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe84" type="veh_combo_3" depart="669.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe15" type="veh_combo_3" depart="674.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt9 nt9_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe332" type="veh_combo_3" depart="675.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe91" type="veh_combo_3" depart="688.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe117" type="veh_combo_3" depart="697.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe309" type="veh_combo_3" depart="700.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe209" type="veh_combo_3" depart="709.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe17" type="veh_combo_3" depart="724.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe429" type="veh_combo_3" depart="726.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe416" type="veh_combo_3" depart="726.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt14 nt14_nt15 nt15_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe229" type="veh_combo_3" depart="735.11" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe173" type="veh_combo_3" depart="741.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe334" type="veh_combo_3" depart="744.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe3" type="veh_combo_3" depart="754.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_np15 np15_nt5 nt5_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe150" type="veh_combo_3" depart="759.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe414" type="veh_combo_3" depart="761.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe325" type="veh_combo_3" depart="763.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe14" type="veh_combo_3" depart="764.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt4 nt4_nt3 nt3_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe128" type="veh_combo_3" depart="767.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe60" type="veh_combo_3" depart="782.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np9 np9_nt16 nt16_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe107" type="veh_combo_3" depart="787.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np16_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe407" type="veh_combo_3" depart="803.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe113" type="veh_combo_3" depart="809.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe312" type="veh_combo_3" depart="837.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe276" type="veh_combo_3" depart="838.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np9_nt16 nt16_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe24" type="veh_combo_3" depart="842.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe376" type="veh_combo_3" depart="845.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np9 np9_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe220" type="veh_combo_3" depart="846.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_np3 np3_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe101" type="veh_combo_3" depart="859.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe374" type="veh_combo_3" depart="859.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe308" type="veh_combo_3" depart="861.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe16" type="veh_combo_3" depart="869.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe272" type="veh_combo_3" depart="869.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe382" type="veh_combo_3" depart="870.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe134" type="veh_combo_3" depart="873.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe170" type="veh_combo_3" depart="873.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe292" type="veh_combo_3" depart="884.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe337" type="veh_combo_3" depart="887.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe12" type="veh_combo_3" depart="912.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe171" type="veh_combo_3" depart="913.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe40" type="veh_combo_3" depart="927.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt16 nt16_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe212" type="veh_combo_3" depart="937.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe389" type="veh_combo_3" depart="941.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe372" type="veh_combo_3" depart="953.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe328" type="veh_combo_3" depart="954.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np10_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe86" type="veh_combo_3" depart="957.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe434" type="veh_combo_3" depart="971.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe29" type="veh_combo_3" depart="972.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe363" type="veh_combo_3" depart="1002.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe278" type="veh_combo_3" depart="1006.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe157" type="veh_combo_3" depart="1010.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np11_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe145" type="veh_combo_3" depart="1010.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe140" type="veh_combo_3" depart="1025.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe379" type="veh_combo_3" depart="1032.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe54" type="veh_combo_3" depart="1034.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe39" type="veh_combo_3" depart="1038.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe357" type="veh_combo_3" depart="1055.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe169" type="veh_combo_3" depart="1066.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe240" type="veh_combo_3" depart="1082.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe11" type="veh_combo_3" depart="1086.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe204" type="veh_combo_3" depart="1088.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe319" type="veh_combo_3" depart="1108.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np9_nt16 nt16_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe443" type="veh_combo_3" depart="1114.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe28" type="veh_combo_3" depart="1118.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np11_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe373" type="veh_combo_3" depart="1122.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe405" type="veh_combo_3" depart="1129.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe55" type="veh_combo_3" depart="1130.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt13 nt13_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe298" type="veh_combo_3" depart="1144.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe286" type="veh_combo_3" depart="1151.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe116" type="veh_combo_3" depart="1162.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe329" type="veh_combo_3" depart="1179.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_np5 np5_nt4 nt4_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe214" type="veh_combo_3" depart="1226.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe317" type="veh_combo_3" depart="1229.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt16 nt16_np8 np8_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe109" type="veh_combo_3" depart="1229.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe162" type="veh_combo_3" depart="1238.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe85" type="veh_combo_3" depart="1247.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe69" type="veh_combo_3" depart="1256.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_np15 np15_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe206" type="veh_combo_3" depart="1261.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np9_nt16 nt16_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe96" type="veh_combo_3" depart="1266.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_np6 np6_nt8 nt8_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe227" type="veh_combo_3" depart="1299.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt6 nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe35" type="veh_combo_3" depart="1302.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe89" type="veh_combo_3" depart="1312.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np11_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe246" type="veh_combo_3" depart="1312.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_np6 np6_nt8 nt8_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe75" type="veh_combo_3" depart="1320.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe330" type="veh_combo_3" depart="1335.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe78" type="veh_combo_3" depart="1336.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt12 nt12_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe219" type="veh_combo_3" depart="1336.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt2 nt2_np2 np2_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe131" type="veh_combo_3" depart="1364.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe302" type="veh_combo_3" depart="1394.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe255" type="veh_combo_3" depart="1396.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np8 np8_nt16 nt16_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe239" type="veh_combo_3" depart="1396.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe155" type="veh_combo_3" depart="1405.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe424" type="veh_combo_3" depart="1406.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe122" type="veh_combo_3" depart="1407.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe249" type="veh_combo_3" depart="1427.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe327" type="veh_combo_3" depart="1454.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_nt2 nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe433" type="veh_combo_3" depart="1465.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe136" type="veh_combo_3" depart="1469.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe359" type="veh_combo_3" depart="1473.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe335" type="veh_combo_3" depart="1476.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe377" type="veh_combo_3" depart="1480.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe262" type="veh_combo_3" depart="1514.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np9 np9_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe181" type="veh_combo_3" depart="1520.78" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_np13 np13_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe164" type="veh_combo_3" depart="1537.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt2 nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe190" type="veh_combo_3" depart="1578.35" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np5_nt4 nt4_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe8" type="veh_combo_3" depart="1580.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe344" type="veh_combo_3" depart="1583.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe384" type="veh_combo_3" depart="1584.35" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe163" type="veh_combo_3" depart="1593.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt4 nt4_np5 np5_nt4 nt4_nt3 nt3_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe237" type="veh_combo_3" depart="1598.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_np12 np12_nt13 nt13_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe421" type="veh_combo_3" depart="1609.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe160" type="veh_combo_3" depart="1609.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt9 nt9_np14 np14_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe417" type="veh_combo_3" depart="1614.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe385" type="veh_combo_3" depart="1620.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt13 nt13_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe146" type="veh_combo_3" depart="1620.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe397" type="veh_combo_3" depart="1630.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe106" type="veh_combo_3" depart="1631.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np8_nt16 nt16_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe22" type="veh_combo_3" depart="1651.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe56" type="veh_combo_3" depart="1669.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe294" type="veh_combo_3" depart="1679.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe195" type="veh_combo_3" depart="1682.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe158" type="veh_combo_3" depart="1682.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe58" type="veh_combo_3" depart="1684.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe402" type="veh_combo_3" depart="1689.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe234" type="veh_combo_3" depart="1690.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np10_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe154" type="veh_combo_3" depart="1708.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np9_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe297" type="veh_combo_3" depart="1734.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe289" type="veh_combo_3" depart="1743.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt16 nt16_nt12 nt12_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe187" type="veh_combo_3" depart="1758.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt15 nt15_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe304" type="veh_combo_3" depart="1762.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe44" type="veh_combo_3" depart="1762.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np11_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe32" type="veh_combo_3" depart="1763.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe230" type="veh_combo_3" depart="1775.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe144" type="veh_combo_3" depart="1780.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np8 np8_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe338" type="veh_combo_3" depart="1782.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe448" type="veh_combo_3" depart="1806.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe258" type="veh_combo_3" depart="1809.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe201" type="veh_combo_3" depart="1810.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe236" type="veh_combo_3" depart="1812.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe361" type="veh_combo_3" depart="1816.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe6" type="veh_combo_3" depart="1817.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_np5 np5_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe216" type="veh_combo_3" depart="1820.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe48" type="veh_combo_3" depart="1822.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe390" type="veh_combo_3" depart="1827.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe315" type="veh_combo_3" depart="1835.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe355" type="veh_combo_3" depart="1836.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe323" type="veh_combo_3" depart="1841.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe2" type="veh_combo_3" depart="1847.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt1 nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe18" type="veh_combo_3" depart="1848.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe123" type="veh_combo_3" depart="1849.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe93" type="veh_combo_3" depart="1886.85" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe449" type="veh_combo_3" depart="1923.50" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe124" type="veh_combo_3" depart="1932.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe64" type="veh_combo_3" depart="1935.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_nt2 nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe25" type="veh_combo_3" depart="1943.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_np15 np15_nt5 nt5_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe398" type="veh_combo_3" depart="1944.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe119" type="veh_combo_3" depart="1950.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe281" type="veh_combo_3" depart="1954.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe57" type="veh_combo_3" depart="1972.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe347" type="veh_combo_3" depart="1995.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt15 nt15_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe172" type="veh_combo_3" depart="2006.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe139" type="veh_combo_3" depart="2012.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe13" type="veh_combo_3" depart="2039.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe348" type="veh_combo_3" depart="2079.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe82" type="veh_combo_3" depart="2085.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt15 nt15_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe287" type="veh_combo_3" depart="2090.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe213" type="veh_combo_3" depart="2097.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe45" type="veh_combo_3" depart="2104.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe431" type="veh_combo_3" depart="2108.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe305" type="veh_combo_3" depart="2134.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np16_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe280" type="veh_combo_3" depart="2136.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe66" type="veh_combo_3" depart="2137.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe43" type="veh_combo_3" depart="2138.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt7 nt7_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe285" type="veh_combo_3" depart="2150.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt12 nt12_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe34" type="veh_combo_3" depart="2169.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_nt8 nt8_np6 np6_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe371" type="veh_combo_3" depart="2182.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe217" type="veh_combo_3" depart="2187.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe203" type="veh_combo_3" depart="2195.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_nt2 nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe46" type="veh_combo_3" depart="2198.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe20" type="veh_combo_3" depart="2239.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt1 nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe269" type="veh_combo_3" depart="2252.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe100" type="veh_combo_3" depart="2253.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt10 nt10_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe303" type="veh_combo_3" depart="2253.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe38" type="veh_combo_3" depart="2264.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe351" type="veh_combo_3" depart="2267.71" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe103" type="veh_combo_3" depart="2268.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe37" type="veh_combo_3" depart="2276.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe247" type="veh_combo_3" depart="2277.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe36" type="veh_combo_3" depart="2279.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe360" type="veh_combo_3" depart="2285.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe179" type="veh_combo_3" depart="2295.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt2 nt2_np2 np2_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe366" type="veh_combo_3" depart="2298.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe10" type="veh_combo_3" depart="2300.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe175" type="veh_combo_3" depart="2306.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe159" type="veh_combo_3" depart="2311.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe438" type="veh_combo_3" depart="2344.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe324" type="veh_combo_3" depart="2354.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe41" type="veh_combo_3" depart="2359.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe149" type="veh_combo_3" depart="2368.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np7_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe238" type="veh_combo_3" depart="2386.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt12 nt12_np7 np7_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe358" type="veh_combo_3" depart="2386.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe381" type="veh_combo_3" depart="2386.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe174" type="veh_combo_3" depart="2394.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe395" type="veh_combo_3" depart="2402.41" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe47" type="veh_combo_3" depart="2402.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe349" type="veh_combo_3" depart="2414.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe110" type="veh_combo_3" depart="2416.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_np15 np15_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe423" type="veh_combo_3" depart="2417.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt15 nt15_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe275" type="veh_combo_3" depart="2418.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt16 nt16_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe222" type="veh_combo_3" depart="2420.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe320" type="veh_combo_3" depart="2431.34" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt8 nt8_nt4 nt4_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe127" type="veh_combo_3" depart="2431.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe267" type="veh_combo_3" depart="2433.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe21" type="veh_combo_3" depart="2436.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe79" type="veh_combo_3" depart="2440.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe161" type="veh_combo_3" depart="2442.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe387" type="veh_combo_3" depart="2467.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe300" type="veh_combo_3" depart="2469.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np11_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe0" type="veh_combo_3" depart="2488.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe105" type="veh_combo_3" depart="2491.19" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_np15 np15_nt5 nt5_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe108" type="veh_combo_3" depart="2495.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_np14 np14_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe67" type="veh_combo_3" depart="2531.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe72" type="veh_combo_3" depart="2537.50" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe301" type="veh_combo_3" depart="2541.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_np5 np5_nt4 nt4_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe166" type="veh_combo_3" depart="2543.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe446" type="veh_combo_3" depart="2547.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_np5 np5_nt4 nt4_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe439" type="veh_combo_3" depart="2555.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe415" type="veh_combo_3" depart="2560.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe74" type="veh_combo_3" depart="2571.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe153" type="veh_combo_3" depart="2573.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe442" type="veh_combo_3" depart="2575.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe441" type="veh_combo_3" depart="2579.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe76" type="veh_combo_3" depart="2581.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt15 nt15_nt16 nt16_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe340" type="veh_combo_3" depart="2583.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe135" type="veh_combo_3" depart="2585.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe233" type="veh_combo_3" depart="2586.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe313" type="veh_combo_3" depart="2592.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe257" type="veh_combo_3" depart="2594.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np7_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe226" type="veh_combo_3" depart="2596.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np9 np9_nt16 nt16_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe193" type="veh_combo_3" depart="2599.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe148" type="veh_combo_3" depart="2609.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt7 nt7_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe182" type="veh_combo_3" depart="2622.71" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt12 nt12_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe200" type="veh_combo_3" depart="2623.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe59" type="veh_combo_3" depart="2624.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe419" type="veh_combo_3" depart="2634.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe251" type="veh_combo_3" depart="2634.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe211" type="veh_combo_3" depart="2634.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe321" type="veh_combo_3" depart="2637.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe185" type="veh_combo_3" depart="2643.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe388" type="veh_combo_3" depart="2652.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt4 nt4_np5 np5_nt4 nt4_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe406" type="veh_combo_3" depart="2686.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_np15 np15_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe322" type="veh_combo_3" depart="2690.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_np3 np3_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe288" type="veh_combo_3" depart="2691.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe228" type="veh_combo_3" depart="2692.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe311" type="veh_combo_3" depart="2693.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe210" type="veh_combo_3" depart="2701.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe375" type="veh_combo_3" depart="2705.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe248" type="veh_combo_3" depart="2720.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe432" type="veh_combo_3" depart="2729.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe184" type="veh_combo_3" depart="2745.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe118" type="veh_combo_3" depart="2755.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np6_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe428" type="veh_combo_3" depart="2768.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe225" type="veh_combo_3" depart="2769.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np8 np8_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe215" type="veh_combo_3" depart="2790.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe235" type="veh_combo_3" depart="2790.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt8 nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe383" type="veh_combo_3" depart="2796.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe244" type="veh_combo_3" depart="2803.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe51" type="veh_combo_3" depart="2807.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt15 nt15_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe253" type="veh_combo_3" depart="2821.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt16 nt16_nt12 nt12_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe316" type="veh_combo_3" depart="2828.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe156" type="veh_combo_3" depart="2846.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_nt3 nt3_np3 np3_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe310" type="veh_combo_3" depart="2850.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe71" type="veh_combo_3" depart="2853.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe392" type="veh_combo_3" depart="2854.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np11_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe273" type="veh_combo_3" depart="2859.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe81" type="veh_combo_3" depart="2863.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe177" type="veh_combo_3" depart="2877.51" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe202" type="veh_combo_3" depart="2886.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe94" type="veh_combo_3" depart="2913.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe168" type="veh_combo_3" depart="2929.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe307" type="veh_combo_3" depart="2932.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt4 nt4_np5 np5_nt4 nt4_nt3 nt3_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe254" type="veh_combo_3" depart="2936.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np9 np9_nt16 nt16_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe199" type="veh_combo_3" depart="2942.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt4 nt4_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe231" type="veh_combo_3" depart="2945.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe4" type="veh_combo_3" depart="2950.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe188" type="veh_combo_3" depart="2950.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt13 nt13_np13 np13_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe121" type="veh_combo_3" depart="2951.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe368" type="veh_combo_3" depart="2951.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_np7 np7_nt12 nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe120" type="veh_combo_3" depart="2982.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe141" type="veh_combo_3" depart="2986.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe265" type="veh_combo_3" depart="2992.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np10_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe290" type="veh_combo_3" depart="3004.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe270" type="veh_combo_3" depart="3012.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe90" type="veh_combo_3" depart="3029.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe339" type="veh_combo_3" depart="3038.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe242" type="veh_combo_3" depart="3041.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe252" type="veh_combo_3" depart="3043.22" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt8 nt8_nt4 nt4_nt3 nt3_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe130" type="veh_combo_3" depart="3043.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe151" type="veh_combo_3" depart="3054.41" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np11_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe282" type="veh_combo_3" depart="3060.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt5 nt5_nt1 nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe440" type="veh_combo_3" depart="3060.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe345" type="veh_combo_3" depart="3065.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt8 nt8_nt4 nt4_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe314" type="veh_combo_3" depart="3069.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe218" type="veh_combo_3" depart="3069.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe125" type="veh_combo_3" depart="3072.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe80" type="veh_combo_3" depart="3072.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt2 nt2_np2 np2_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe291" type="veh_combo_3" depart="3090.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe133" type="veh_combo_3" depart="3096.71" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe224" type="veh_combo_3" depart="3116.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe115" type="veh_combo_3" depart="3126.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe284" type="veh_combo_3" depart="3141.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt13 nt13_np13 np13_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe112" type="veh_combo_3" depart="3163.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe380" type="veh_combo_3" depart="3163.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe23" type="veh_combo_3" depart="3181.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt12 nt12_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe341" type="veh_combo_3" depart="3181.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe261" type="veh_combo_3" depart="3182.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt4_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe194" type="veh_combo_3" depart="3234.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np13_nt13 nt13_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe279" type="veh_combo_3" depart="3235.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt4 nt4_np5 np5_nt4 nt4_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe396" type="veh_combo_3" depart="3241.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt5 nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe410" type="veh_combo_3" depart="3243.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_np11 np11_nt14 nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe306" type="veh_combo_3" depart="3253.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe386" type="veh_combo_3" depart="3259.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe365" type="veh_combo_3" depart="3261.34" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe250" type="veh_combo_3" depart="3262.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np5_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe436" type="veh_combo_3" depart="3263.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe354" type="veh_combo_3" depart="3266.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt1_nt5 nt5_np15 np15_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe346" type="veh_combo_3" depart="3274.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe138" type="veh_combo_3" depart="3282.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt3_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe196" type="veh_combo_3" depart="3294.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt8_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe132" type="veh_combo_3" depart="3297.18" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe435" type="veh_combo_3" depart="3308.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np12_nt13 nt13_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe167" type="veh_combo_3" depart="3316.85" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt12_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe331" type="veh_combo_3" depart="3351.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe97" type="veh_combo_3" depart="3365.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt14 nt14_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe408" type="veh_combo_3" depart="3368.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe186" type="veh_combo_3" depart="3374.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_np3 np3_nt3 nt3_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe427" type="veh_combo_3" depart="3381.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt1 nt1_np16 np16_nt1 nt1_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe31" type="veh_combo_3" depart="3381.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np8 np8_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe221" type="veh_combo_3" depart="3385.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="mix_spe353" type="veh_combo_3" depart="3389.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe192" type="veh_combo_3" depart="3405.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe53" type="veh_combo_3" depart="3425.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt12 nt12_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe189" type="veh_combo_3" depart="3426.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np7_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe99" type="veh_combo_3" depart="3435.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt14_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe364" type="veh_combo_3" depart="3452.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np8 np8_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe191" type="veh_combo_3" depart="3453.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_np15 np15_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe420" type="veh_combo_3" depart="3454.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt2_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe342" type="veh_combo_3" depart="3468.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_nt15 nt15_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe411" type="veh_combo_3" depart="3476.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt15_np10 np10_nt15 nt15_nt14 nt14_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="mix_spe352" type="veh_combo_3" depart="3490.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe232" type="veh_combo_3" depart="3498.49" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np14_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="mix_spe114" type="veh_combo_3" depart="3523.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="mix_spe243" type="veh_combo_3" depart="3533.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe104" type="veh_combo_3" depart="3545.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="mix_spe425" type="veh_combo_3" depart="3545.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="mix_spe295" type="veh_combo_3" depart="3554.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe126" type="veh_combo_3" depart="3569.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="np15_nt5 nt5_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="mix_spe52" type="veh_combo_3" depart="3573.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt16_np9 np9_nt16 nt16_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="mix_spe263" type="veh_combo_3" depart="3596.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+</routes>

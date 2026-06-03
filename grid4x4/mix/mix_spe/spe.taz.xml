@@ -1,0 +1,9 @@
+<additional>
+    <tazs>
+        <!-- Source zone -->
+        <taz id="1" edges="np10_nt15 np11_nt14 np12_nt13 np13_nt13 np14_nt9 np15_nt5 np16_nt1 np5_nt4 np6_nt8 np7_nt12 np8_nt16 np9_nt16 nt10_nt14 nt10_nt9 nt11_nt12 nt11_nt15 nt12_np7 nt12_nt11 nt12_nt16 nt12_nt8 nt13_np12 nt13_np13 nt13_nt14 nt13_nt9 nt14_np11 nt14_nt10 nt14_nt13 nt14_nt15 nt15_np10 nt15_nt11 nt15_nt14 nt15_nt16 nt16_np8 nt16_np9 nt16_nt12 nt16_nt15 nt1_np16 nt1_nt2 nt1_nt5 nt2_nt1 nt2_nt3 nt2_nt6 nt3_nt2 nt3_nt4 nt3_nt7 nt4_np5 nt4_nt3 nt4_nt8 nt5_np15 nt5_nt1 nt5_nt6 nt5_nt9 nt6_nt2 nt6_nt5 nt7_nt3 nt7_nt8 nt8_np6 nt8_nt12 nt8_nt4 nt8_nt7 nt9_np14 nt9_nt10 nt9_nt13 nt9_nt5 nt6_nt7 nt7_nt6 nt6_nt10 nt10_nt6 nt10_nt11 nt11_nt10 nt7_nt11 nt11_nt7"/>
+
+        <!-- Sink zone -->
+        <taz id="2" edges="nt1_np1 np1_nt1 nt2_np2 np2_nt2 nt3_np3 np3_nt3 nt4_np4 np4_nt4"/>
+    </tazs>
+</additional>

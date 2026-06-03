@@ -1,0 +1,37 @@
+<additional>
+
+    <vTypeDistribution id="veh_combo_1" >
+        <vType id="HDV" minGap="2.00" maxSpeed="33.30" color="226,40,40" laneChangeModel="LC2013" lcCooperative="0.5" carFollowModel="IDM" accel="1.00" decel="2.00" tau="1.5" delta="0.50">
+            <param key="driverState.errorNoiseIntensityCoefficient" value="0.5"/>
+            <param key="driverState.errorTimeScaleCoefficient" value="100"/>
+            <param key="driverState.headwayChangePerceptionThreshold" value="0.5"/>
+            <param key="driverState.headwayErrorCoefficient" value="2"/>
+            <param key="driverState.initialAwareness" value="1.1"/>
+            <param key="driverState.maximalReactionTime" value="0.5"/>
+            <param key="driverState.speedDifferenceChangePerceptionThreshold" value="0.5"/>
+            <param key="driverState.speedDifferenceErrorCoefficient" value="2"/>
+            <param key="has.driverState.device" value="true"/>
+        </vType>
+    </vTypeDistribution>
+
+    <vTypeDistribution id="veh_combo_2" >
+        <vType id="CAV" minGap="1.50" speedFactor="normc(1.00,0.05)" color="119,119,119" laneChangeModel="LC2013" carFollowModel="CACC" accel="2.90" decel="7.50" tau="0.60"/>
+    </vTypeDistribution>
+
+    <vTypeDistribution id="veh_combo_3" >
+        <vType id="mix_CAV" minGap="1.50" speedFactor="normc(1.00,0.05)" color="119,119,119" laneChangeModel="LC2013" carFollowModel="CACC" accel="2.90" decel="7.50" probability="0.5" tau="0.60"/>
+        <vType id="mix_HDV" minGap="2.00" maxSpeed="33.30" color="226,40,40" laneChangeModel="LC2013" lcCooperative="0.5" carFollowModel="IDM" accel="1.00" decel="2.00" probability="0.5" tau="1.5" delta="0.50">
+            <param key="driverState.errorNoiseIntensityCoefficient" value="0.5"/>
+            <param key="driverState.errorTimeScaleCoefficient" value="100"/>
+            <param key="driverState.headwayChangePerceptionThreshold" value="0.5"/>
+            <param key="driverState.headwayErrorCoefficient" value="2"/>
+            <param key="driverState.initialAwareness" value="1.1"/>
+            <param key="driverState.maximalReactionTime" value="0.5"/>
+            <param key="driverState.speedDifferenceChangePerceptionThreshold" value="0.5"/>
+            <param key="driverState.speedDifferenceErrorCoefficient" value="2"/>
+            <param key="has.driverState.device" value="true"/>
+        </vType>
+    </vTypeDistribution>
+
+</additional>
+

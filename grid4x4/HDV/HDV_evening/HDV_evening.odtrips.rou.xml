@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-01-29 20:14:32 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="grid4x4.net.xml"/>
+        <route-files value="evening.odtrips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="evening.odtrips.rou.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="HDV_evening63" type="veh_combo_1" depart="0.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening283" type="veh_combo_1" depart="2.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening519" type="veh_combo_1" depart="4.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening245" type="veh_combo_1" depart="11.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening88" type="veh_combo_1" depart="16.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening9" type="veh_combo_1" depart="18.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening412" type="veh_combo_1" depart="19.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening391" type="veh_combo_1" depart="23.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening198" type="veh_combo_1" depart="36.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening526" type="veh_combo_1" depart="37.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt4 nt4_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening142" type="veh_combo_1" depart="39.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening571" type="veh_combo_1" depart="46.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening543" type="veh_combo_1" depart="54.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening5" type="veh_combo_1" depart="55.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening597" type="veh_combo_1" depart="70.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening587" type="veh_combo_1" depart="73.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening711" type="veh_combo_1" depart="76.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_np3 np3_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening551" type="veh_combo_1" depart="76.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_np6"/>
+    </vehicle>
+    <vehicle id="HDV_evening418" type="veh_combo_1" depart="77.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening111" type="veh_combo_1" depart="81.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening223" type="veh_combo_1" depart="101.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening508" type="veh_combo_1" depart="105.18" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening399" type="veh_combo_1" depart="106.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening367" type="veh_combo_1" depart="107.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening695" type="veh_combo_1" depart="108.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_np6 np6_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening370" type="veh_combo_1" depart="114.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening129" type="veh_combo_1" depart="116.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening648" type="veh_combo_1" depart="145.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening318" type="veh_combo_1" depart="150.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening546" type="veh_combo_1" depart="153.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening565" type="veh_combo_1" depart="153.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening650" type="veh_combo_1" depart="159.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16 np16_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening19" type="veh_combo_1" depart="163.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening567" type="veh_combo_1" depart="167.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_np10 np10_nt15 nt15_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening92" type="veh_combo_1" depart="169.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_np6"/>
+    </vehicle>
+    <vehicle id="HDV_evening137" type="veh_combo_1" depart="179.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening457" type="veh_combo_1" depart="182.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening73" type="veh_combo_1" depart="186.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening378" type="veh_combo_1" depart="187.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening503" type="veh_combo_1" depart="200.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening256" type="veh_combo_1" depart="202.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening62" type="veh_combo_1" depart="207.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening333" type="veh_combo_1" depart="208.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening165" type="veh_combo_1" depart="211.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening68" type="veh_combo_1" depart="212.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening147" type="veh_combo_1" depart="214.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening401" type="veh_combo_1" depart="220.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening409" type="veh_combo_1" depart="220.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening264" type="veh_combo_1" depart="222.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening362" type="veh_combo_1" depart="224.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening27" type="veh_combo_1" depart="238.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening534" type="veh_combo_1" depart="240.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening511" type="veh_combo_1" depart="243.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening274" type="veh_combo_1" depart="244.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening700" type="veh_combo_1" depart="259.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening422" type="veh_combo_1" depart="260.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening502" type="veh_combo_1" depart="272.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt1 nt1_np16 np16_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening403" type="veh_combo_1" depart="276.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening619" type="veh_combo_1" depart="278.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening356" type="veh_combo_1" depart="280.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening610" type="veh_combo_1" depart="284.18" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening197" type="veh_combo_1" depart="292.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening655" type="veh_combo_1" depart="302.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_np11 np11_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening547" type="veh_combo_1" depart="302.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening268" type="veh_combo_1" depart="305.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening662" type="veh_combo_1" depart="306.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening260" type="veh_combo_1" depart="312.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening413" type="veh_combo_1" depart="314.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening326" type="veh_combo_1" depart="320.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening98" type="veh_combo_1" depart="322.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening70" type="veh_combo_1" depart="325.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening180" type="veh_combo_1" depart="326.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening343" type="veh_combo_1" depart="327.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening400" type="veh_combo_1" depart="331.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening593" type="veh_combo_1" depart="335.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening369" type="veh_combo_1" depart="340.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening582" type="veh_combo_1" depart="340.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening561" type="veh_combo_1" depart="342.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening183" type="veh_combo_1" depart="349.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening49" type="veh_combo_1" depart="353.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening207" type="veh_combo_1" depart="357.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening50" type="veh_combo_1" depart="363.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening87" type="veh_combo_1" depart="363.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np13"/>
+    </vehicle>
+    <vehicle id="HDV_evening393" type="veh_combo_1" depart="368.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening83" type="veh_combo_1" depart="368.78" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening712" type="veh_combo_1" depart="374.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening7" type="veh_combo_1" depart="381.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening350" type="veh_combo_1" depart="382.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening65" type="veh_combo_1" depart="386.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening668" type="veh_combo_1" depart="389.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening404" type="veh_combo_1" depart="393.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_np6 np6_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening649" type="veh_combo_1" depart="395.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening692" type="veh_combo_1" depart="395.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening447" type="veh_combo_1" depart="396.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening95" type="veh_combo_1" depart="397.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening444" type="veh_combo_1" depart="409.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening42" type="veh_combo_1" depart="410.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening488" type="veh_combo_1" depart="416.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening299" type="veh_combo_1" depart="422.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening33" type="veh_combo_1" depart="423.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening437" type="veh_combo_1" depart="425.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening208" type="veh_combo_1" depart="429.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening30" type="veh_combo_1" depart="433.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening26" type="veh_combo_1" depart="436.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening657" type="veh_combo_1" depart="441.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening651" type="veh_combo_1" depart="442.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening259" type="veh_combo_1" depart="446.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening426" type="veh_combo_1" depart="452.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening445" type="veh_combo_1" depart="456.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening205" type="veh_combo_1" depart="464.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_np15 np15_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening704" type="veh_combo_1" depart="471.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening430" type="veh_combo_1" depart="476.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening1" type="veh_combo_1" depart="476.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening592" type="veh_combo_1" depart="482.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening271" type="veh_combo_1" depart="490.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np16 np16_nt1 nt1_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening178" type="veh_combo_1" depart="505.51" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening717" type="veh_combo_1" depart="510.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening570" type="veh_combo_1" depart="527.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening708" type="veh_combo_1" depart="530.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening584" type="veh_combo_1" depart="541.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16 np16_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening538" type="veh_combo_1" depart="558.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening241" type="veh_combo_1" depart="560.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening152" type="veh_combo_1" depart="568.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening703" type="veh_combo_1" depart="568.51" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening643" type="veh_combo_1" depart="569.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening336" type="veh_combo_1" depart="573.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening176" type="veh_combo_1" depart="574.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening102" type="veh_combo_1" depart="581.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening61" type="veh_combo_1" depart="587.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening635" type="veh_combo_1" depart="591.35" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2 np2_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening143" type="veh_combo_1" depart="592.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening620" type="veh_combo_1" depart="612.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening77" type="veh_combo_1" depart="617.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening492" type="veh_combo_1" depart="624.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening394" type="veh_combo_1" depart="635.18" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening529" type="veh_combo_1" depart="636.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening266" type="veh_combo_1" depart="640.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening475" type="veh_combo_1" depart="643.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening569" type="veh_combo_1" depart="647.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening715" type="veh_combo_1" depart="648.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt14 nt14_np11 np11_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening553" type="veh_combo_1" depart="651.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening672" type="veh_combo_1" depart="660.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening467" type="veh_combo_1" depart="662.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening296" type="veh_combo_1" depart="663.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening688" type="veh_combo_1" depart="663.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening293" type="veh_combo_1" depart="665.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening277" type="veh_combo_1" depart="666.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening640" type="veh_combo_1" depart="668.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening84" type="veh_combo_1" depart="669.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening690" type="veh_combo_1" depart="673.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening15" type="veh_combo_1" depart="674.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening332" type="veh_combo_1" depart="675.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_np6 np6_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening472" type="veh_combo_1" depart="687.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening91" type="veh_combo_1" depart="688.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening603" type="veh_combo_1" depart="694.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening117" type="veh_combo_1" depart="697.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening456" type="veh_combo_1" depart="698.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening309" type="veh_combo_1" depart="700.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening209" type="veh_combo_1" depart="709.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening701" type="veh_combo_1" depart="714.00" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening17" type="veh_combo_1" depart="724.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening429" type="veh_combo_1" depart="726.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening416" type="veh_combo_1" depart="726.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening599" type="veh_combo_1" depart="731.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening229" type="veh_combo_1" depart="735.11" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening660" type="veh_combo_1" depart="736.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening173" type="veh_combo_1" depart="741.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening493" type="veh_combo_1" depart="744.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening334" type="veh_combo_1" depart="744.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening3" type="veh_combo_1" depart="754.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening545" type="veh_combo_1" depart="755.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening150" type="veh_combo_1" depart="759.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening414" type="veh_combo_1" depart="761.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening325" type="veh_combo_1" depart="763.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_np14 np14_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening14" type="veh_combo_1" depart="764.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np16 np16_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening665" type="veh_combo_1" depart="764.85" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening710" type="veh_combo_1" depart="766.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening128" type="veh_combo_1" depart="767.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening60" type="veh_combo_1" depart="782.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening107" type="veh_combo_1" depart="787.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening407" type="veh_combo_1" depart="803.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening113" type="veh_combo_1" depart="809.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening517" type="veh_combo_1" depart="815.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening699" type="veh_combo_1" depart="829.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening639" type="veh_combo_1" depart="834.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening312" type="veh_combo_1" depart="837.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening276" type="veh_combo_1" depart="838.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening471" type="veh_combo_1" depart="840.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening24" type="veh_combo_1" depart="842.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening376" type="veh_combo_1" depart="845.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening220" type="veh_combo_1" depart="846.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening631" type="veh_combo_1" depart="846.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening101" type="veh_combo_1" depart="859.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening374" type="veh_combo_1" depart="859.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening677" type="veh_combo_1" depart="860.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening308" type="veh_combo_1" depart="861.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14 nt14_np11 np11_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening16" type="veh_combo_1" depart="869.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening272" type="veh_combo_1" depart="869.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening382" type="veh_combo_1" depart="870.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening134" type="veh_combo_1" depart="873.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening170" type="veh_combo_1" depart="873.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening596" type="veh_combo_1" depart="882.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening292" type="veh_combo_1" depart="884.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening337" type="veh_combo_1" depart="887.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening469" type="veh_combo_1" depart="898.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening487" type="veh_combo_1" depart="902.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening532" type="veh_combo_1" depart="904.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening612" type="veh_combo_1" depart="909.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening12" type="veh_combo_1" depart="912.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening171" type="veh_combo_1" depart="913.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening40" type="veh_combo_1" depart="927.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening491" type="veh_combo_1" depart="928.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening212" type="veh_combo_1" depart="937.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening389" type="veh_combo_1" depart="941.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening533" type="veh_combo_1" depart="946.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening678" type="veh_combo_1" depart="949.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening581" type="veh_combo_1" depart="953.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening372" type="veh_combo_1" depart="953.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening328" type="veh_combo_1" depart="954.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening588" type="veh_combo_1" depart="955.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_np3 np3_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening86" type="veh_combo_1" depart="957.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening625" type="veh_combo_1" depart="965.35" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening434" type="veh_combo_1" depart="971.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening29" type="veh_combo_1" depart="972.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening363" type="veh_combo_1" depart="1002.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening278" type="veh_combo_1" depart="1006.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening157" type="veh_combo_1" depart="1010.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening145" type="veh_combo_1" depart="1010.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening499" type="veh_combo_1" depart="1010.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening140" type="veh_combo_1" depart="1025.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening379" type="veh_combo_1" depart="1032.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening54" type="veh_combo_1" depart="1034.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="HDV_evening510" type="veh_combo_1" depart="1038.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_np6"/>
+    </vehicle>
+    <vehicle id="HDV_evening39" type="veh_combo_1" depart="1038.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening357" type="veh_combo_1" depart="1055.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening507" type="veh_combo_1" depart="1055.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening169" type="veh_combo_1" depart="1066.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening642" type="veh_combo_1" depart="1072.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening495" type="veh_combo_1" depart="1073.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening527" type="veh_combo_1" depart="1079.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening696" type="veh_combo_1" depart="1081.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening240" type="veh_combo_1" depart="1082.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening11" type="veh_combo_1" depart="1086.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening204" type="veh_combo_1" depart="1088.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening466" type="veh_combo_1" depart="1094.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening319" type="veh_combo_1" depart="1108.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening443" type="veh_combo_1" depart="1114.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening28" type="veh_combo_1" depart="1118.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening524" type="veh_combo_1" depart="1121.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening373" type="veh_combo_1" depart="1122.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening405" type="veh_combo_1" depart="1129.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening55" type="veh_combo_1" depart="1130.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening473" type="veh_combo_1" depart="1132.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening298" type="veh_combo_1" depart="1144.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening286" type="veh_combo_1" depart="1151.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening591" type="veh_combo_1" depart="1157.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening116" type="veh_combo_1" depart="1162.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening481" type="veh_combo_1" depart="1167.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14 nt14_np11 np11_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening658" type="veh_combo_1" depart="1170.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening483" type="veh_combo_1" depart="1176.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening329" type="veh_combo_1" depart="1179.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening458" type="veh_combo_1" depart="1188.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening719" type="veh_combo_1" depart="1189.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening509" type="veh_combo_1" depart="1198.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening679" type="veh_combo_1" depart="1203.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening669" type="veh_combo_1" depart="1206.22" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening641" type="veh_combo_1" depart="1212.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt12 nt12_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening652" type="veh_combo_1" depart="1223.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening506" type="veh_combo_1" depart="1225.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening214" type="veh_combo_1" depart="1226.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening317" type="veh_combo_1" depart="1229.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt4 nt4_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening109" type="veh_combo_1" depart="1229.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening162" type="veh_combo_1" depart="1238.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening85" type="veh_combo_1" depart="1247.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_np6"/>
+    </vehicle>
+    <vehicle id="HDV_evening69" type="veh_combo_1" depart="1256.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening206" type="veh_combo_1" depart="1261.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening96" type="veh_combo_1" depart="1266.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt1 nt1_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening498" type="veh_combo_1" depart="1274.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening555" type="veh_combo_1" depart="1296.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np13"/>
+    </vehicle>
+    <vehicle id="HDV_evening227" type="veh_combo_1" depart="1299.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening35" type="veh_combo_1" depart="1302.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_np3 np3_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening470" type="veh_combo_1" depart="1305.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening89" type="veh_combo_1" depart="1312.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening246" type="veh_combo_1" depart="1312.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt1 nt1_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening564" type="veh_combo_1" depart="1320.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening75" type="veh_combo_1" depart="1320.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening460" type="veh_combo_1" depart="1332.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening330" type="veh_combo_1" depart="1335.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening78" type="veh_combo_1" depart="1336.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening219" type="veh_combo_1" depart="1336.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening490" type="veh_combo_1" depart="1349.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening607" type="veh_combo_1" depart="1358.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening131" type="veh_combo_1" depart="1364.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening521" type="veh_combo_1" depart="1371.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="HDV_evening512" type="veh_combo_1" depart="1378.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_np2 np2_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening683" type="veh_combo_1" depart="1387.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening302" type="veh_combo_1" depart="1394.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening255" type="veh_combo_1" depart="1396.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening239" type="veh_combo_1" depart="1396.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening155" type="veh_combo_1" depart="1405.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening424" type="veh_combo_1" depart="1406.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening122" type="veh_combo_1" depart="1407.79" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening600" type="veh_combo_1" depart="1416.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening621" type="veh_combo_1" depart="1423.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening249" type="veh_combo_1" depart="1427.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening585" type="veh_combo_1" depart="1438.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening327" type="veh_combo_1" depart="1454.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening554" type="veh_combo_1" depart="1455.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_nt3 nt3_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening433" type="veh_combo_1" depart="1465.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening136" type="veh_combo_1" depart="1469.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening359" type="veh_combo_1" depart="1473.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening335" type="veh_combo_1" depart="1476.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening477" type="veh_combo_1" depart="1479.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening377" type="veh_combo_1" depart="1480.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening520" type="veh_combo_1" depart="1499.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening611" type="veh_combo_1" depart="1503.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening598" type="veh_combo_1" depart="1509.49" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening262" type="veh_combo_1" depart="1514.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening181" type="veh_combo_1" depart="1520.78" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening613" type="veh_combo_1" depart="1531.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt4 nt4_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening164" type="veh_combo_1" depart="1537.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="HDV_evening684" type="veh_combo_1" depart="1541.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening550" type="veh_combo_1" depart="1551.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening484" type="veh_combo_1" depart="1551.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening518" type="veh_combo_1" depart="1555.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2 np2_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening190" type="veh_combo_1" depart="1578.35" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening8" type="veh_combo_1" depart="1580.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening604" type="veh_combo_1" depart="1583.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening344" type="veh_combo_1" depart="1583.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening384" type="veh_combo_1" depart="1584.35" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening163" type="veh_combo_1" depart="1593.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening594" type="veh_combo_1" depart="1595.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening237" type="veh_combo_1" depart="1598.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening574" type="veh_combo_1" depart="1602.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening577" type="veh_combo_1" depart="1604.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening421" type="veh_combo_1" depart="1609.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening160" type="veh_combo_1" depart="1609.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening417" type="veh_combo_1" depart="1614.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_np10 np10_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening385" type="veh_combo_1" depart="1620.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening146" type="veh_combo_1" depart="1620.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening397" type="veh_combo_1" depart="1630.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening106" type="veh_combo_1" depart="1631.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening455" type="veh_combo_1" depart="1641.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening22" type="veh_combo_1" depart="1651.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np16 np16_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening707" type="veh_combo_1" depart="1652.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening56" type="veh_combo_1" depart="1669.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening294" type="veh_combo_1" depart="1679.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening195" type="veh_combo_1" depart="1682.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening158" type="veh_combo_1" depart="1682.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening58" type="veh_combo_1" depart="1684.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening402" type="veh_combo_1" depart="1689.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="HDV_evening234" type="veh_combo_1" depart="1690.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening154" type="veh_combo_1" depart="1708.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening452" type="veh_combo_1" depart="1712.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening636" type="veh_combo_1" depart="1715.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening615" type="veh_combo_1" depart="1717.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening453" type="veh_combo_1" depart="1727.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np16 np16_nt1 nt1_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening539" type="veh_combo_1" depart="1733.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening297" type="veh_combo_1" depart="1734.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening289" type="veh_combo_1" depart="1743.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening187" type="veh_combo_1" depart="1758.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening304" type="veh_combo_1" depart="1762.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening44" type="veh_combo_1" depart="1762.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening32" type="veh_combo_1" depart="1763.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening535" type="veh_combo_1" depart="1773.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening230" type="veh_combo_1" depart="1775.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening144" type="veh_combo_1" depart="1780.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening338" type="veh_combo_1" depart="1782.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening448" type="veh_combo_1" depart="1806.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening258" type="veh_combo_1" depart="1809.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening201" type="veh_combo_1" depart="1810.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening236" type="veh_combo_1" depart="1812.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening361" type="veh_combo_1" depart="1816.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening6" type="veh_combo_1" depart="1817.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening216" type="veh_combo_1" depart="1820.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening48" type="veh_combo_1" depart="1822.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening634" type="veh_combo_1" depart="1822.22" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening390" type="veh_combo_1" depart="1827.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt4 nt4_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening315" type="veh_combo_1" depart="1835.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening355" type="veh_combo_1" depart="1836.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening454" type="veh_combo_1" depart="1840.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_np3 np3_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening323" type="veh_combo_1" depart="1841.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening2" type="veh_combo_1" depart="1847.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening18" type="veh_combo_1" depart="1848.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening123" type="veh_combo_1" depart="1849.67" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening537" type="veh_combo_1" depart="1870.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening562" type="veh_combo_1" depart="1873.22" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening705" type="veh_combo_1" depart="1875.22" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening646" type="veh_combo_1" depart="1886.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening93" type="veh_combo_1" depart="1886.85" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening513" type="veh_combo_1" depart="1902.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_np14 np14_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening449" type="veh_combo_1" depart="1923.50" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening124" type="veh_combo_1" depart="1932.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening64" type="veh_combo_1" depart="1935.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening25" type="veh_combo_1" depart="1943.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening398" type="veh_combo_1" depart="1944.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening609" type="veh_combo_1" depart="1947.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening119" type="veh_combo_1" depart="1950.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening281" type="veh_combo_1" depart="1954.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening689" type="veh_combo_1" depart="1960.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening576" type="veh_combo_1" depart="1972.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening57" type="veh_combo_1" depart="1972.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening541" type="veh_combo_1" depart="1983.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_np3 np3_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening605" type="veh_combo_1" depart="1985.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening347" type="veh_combo_1" depart="1995.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening698" type="veh_combo_1" depart="2004.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening172" type="veh_combo_1" depart="2006.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening139" type="veh_combo_1" depart="2012.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening664" type="veh_combo_1" depart="2019.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening476" type="veh_combo_1" depart="2022.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening618" type="veh_combo_1" depart="2038.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening13" type="veh_combo_1" depart="2039.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening573" type="veh_combo_1" depart="2048.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening348" type="veh_combo_1" depart="2079.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening82" type="veh_combo_1" depart="2085.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening287" type="veh_combo_1" depart="2090.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening213" type="veh_combo_1" depart="2097.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening45" type="veh_combo_1" depart="2104.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening431" type="veh_combo_1" depart="2108.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening575" type="veh_combo_1" depart="2128.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening305" type="veh_combo_1" depart="2134.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6"/>
+    </vehicle>
+    <vehicle id="HDV_evening280" type="veh_combo_1" depart="2136.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening66" type="veh_combo_1" depart="2137.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16 np16_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening43" type="veh_combo_1" depart="2138.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening674" type="veh_combo_1" depart="2139.49" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening630" type="veh_combo_1" depart="2139.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening608" type="veh_combo_1" depart="2140.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt14 nt14_np11 np11_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening709" type="veh_combo_1" depart="2145.22" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening694" type="veh_combo_1" depart="2146.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening285" type="veh_combo_1" depart="2150.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening624" type="veh_combo_1" depart="2155.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening514" type="veh_combo_1" depart="2155.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening661" type="veh_combo_1" depart="2158.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening34" type="veh_combo_1" depart="2169.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening371" type="veh_combo_1" depart="2182.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt14 nt14_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening614" type="veh_combo_1" depart="2187.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_np10 np10_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening217" type="veh_combo_1" depart="2187.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening623" type="veh_combo_1" depart="2194.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening203" type="veh_combo_1" depart="2195.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening46" type="veh_combo_1" depart="2198.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening626" type="veh_combo_1" depart="2218.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening523" type="veh_combo_1" depart="2220.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening559" type="veh_combo_1" depart="2229.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening482" type="veh_combo_1" depart="2233.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening20" type="veh_combo_1" depart="2239.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening269" type="veh_combo_1" depart="2252.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening100" type="veh_combo_1" depart="2253.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening303" type="veh_combo_1" depart="2253.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening666" type="veh_combo_1" depart="2254.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening38" type="veh_combo_1" depart="2264.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening351" type="veh_combo_1" depart="2267.71" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening103" type="veh_combo_1" depart="2268.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening486" type="veh_combo_1" depart="2270.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening480" type="veh_combo_1" depart="2275.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening37" type="veh_combo_1" depart="2276.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening247" type="veh_combo_1" depart="2277.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening36" type="veh_combo_1" depart="2279.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening360" type="veh_combo_1" depart="2285.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening179" type="veh_combo_1" depart="2295.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_np11 np11_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening366" type="veh_combo_1" depart="2298.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening10" type="veh_combo_1" depart="2300.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening175" type="veh_combo_1" depart="2306.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening159" type="veh_combo_1" depart="2311.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening656" type="veh_combo_1" depart="2331.11" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening438" type="veh_combo_1" depart="2344.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening324" type="veh_combo_1" depart="2354.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening41" type="veh_combo_1" depart="2359.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening616" type="veh_combo_1" depart="2359.83" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening489" type="veh_combo_1" depart="2363.53" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening716" type="veh_combo_1" depart="2366.19" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening149" type="veh_combo_1" depart="2368.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening238" type="veh_combo_1" depart="2386.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening358" type="veh_combo_1" depart="2386.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt4 nt4_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening381" type="veh_combo_1" depart="2386.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening693" type="veh_combo_1" depart="2391.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening174" type="veh_combo_1" depart="2394.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening606" type="veh_combo_1" depart="2398.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening395" type="veh_combo_1" depart="2402.41" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening47" type="veh_combo_1" depart="2402.94" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening450" type="veh_combo_1" depart="2408.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening706" type="veh_combo_1" depart="2412.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening349" type="veh_combo_1" depart="2414.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening110" type="veh_combo_1" depart="2416.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening423" type="veh_combo_1" depart="2417.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening275" type="veh_combo_1" depart="2418.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="HDV_evening222" type="veh_combo_1" depart="2420.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening320" type="veh_combo_1" depart="2431.34" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening127" type="veh_combo_1" depart="2431.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening267" type="veh_combo_1" depart="2433.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening21" type="veh_combo_1" depart="2436.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening79" type="veh_combo_1" depart="2440.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening161" type="veh_combo_1" depart="2442.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening682" type="veh_combo_1" depart="2449.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening566" type="veh_combo_1" depart="2449.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening563" type="veh_combo_1" depart="2453.14" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_nt3 nt3_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening387" type="veh_combo_1" depart="2467.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4 nt4_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening300" type="veh_combo_1" depart="2469.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening572" type="veh_combo_1" depart="2476.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening461" type="veh_combo_1" depart="2485.71" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening0" type="veh_combo_1" depart="2488.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening105" type="veh_combo_1" depart="2491.19" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening622" type="veh_combo_1" depart="2494.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening108" type="veh_combo_1" depart="2495.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening522" type="veh_combo_1" depart="2513.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening500" type="veh_combo_1" depart="2516.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening67" type="veh_combo_1" depart="2531.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening72" type="veh_combo_1" depart="2537.50" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening301" type="veh_combo_1" depart="2541.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening166" type="veh_combo_1" depart="2543.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening446" type="veh_combo_1" depart="2547.60" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt13 nt13_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening439" type="veh_combo_1" depart="2555.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening415" type="veh_combo_1" depart="2560.31" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening560" type="veh_combo_1" depart="2563.78" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening74" type="veh_combo_1" depart="2571.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening153" type="veh_combo_1" depart="2573.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening442" type="veh_combo_1" depart="2575.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening441" type="veh_combo_1" depart="2579.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening76" type="veh_combo_1" depart="2581.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening340" type="veh_combo_1" depart="2583.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening135" type="veh_combo_1" depart="2585.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening233" type="veh_combo_1" depart="2586.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening313" type="veh_combo_1" depart="2592.89" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening257" type="veh_combo_1" depart="2594.13" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening226" type="veh_combo_1" depart="2596.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening193" type="veh_combo_1" depart="2599.27" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening148" type="veh_combo_1" depart="2609.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening494" type="veh_combo_1" depart="2620.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening182" type="veh_combo_1" depart="2622.71" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening200" type="veh_combo_1" depart="2623.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening59" type="veh_combo_1" depart="2624.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening687" type="veh_combo_1" depart="2624.41" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening629" type="veh_combo_1" depart="2624.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening552" type="veh_combo_1" depart="2628.96" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening419" type="veh_combo_1" depart="2634.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening251" type="veh_combo_1" depart="2634.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening211" type="veh_combo_1" depart="2634.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening321" type="veh_combo_1" depart="2637.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening185" type="veh_combo_1" depart="2643.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening388" type="veh_combo_1" depart="2652.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening465" type="veh_combo_1" depart="2660.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5 nt5_nt6 nt6_nt7 nt7_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening714" type="veh_combo_1" depart="2666.06" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_np10 np10_nt15 nt15_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening628" type="veh_combo_1" depart="2685.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening406" type="veh_combo_1" depart="2686.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening322" type="veh_combo_1" depart="2690.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening288" type="veh_combo_1" depart="2691.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_np11 np11_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening228" type="veh_combo_1" depart="2692.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening311" type="veh_combo_1" depart="2693.17" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening210" type="veh_combo_1" depart="2701.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening375" type="veh_combo_1" depart="2705.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening504" type="veh_combo_1" depart="2705.77" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening670" type="veh_combo_1" depart="2706.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_np14 np14_nt9 nt9_nt10 nt10_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening516" type="veh_combo_1" depart="2717.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening528" type="veh_combo_1" depart="2717.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening248" type="veh_combo_1" depart="2720.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening459" type="veh_combo_1" depart="2722.51" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening432" type="veh_combo_1" depart="2729.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening568" type="veh_combo_1" depart="2733.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening531" type="veh_combo_1" depart="2741.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening184" type="veh_combo_1" depart="2745.91" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening118" type="veh_combo_1" depart="2755.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening428" type="veh_combo_1" depart="2768.20" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening691" type="veh_combo_1" depart="2768.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening225" type="veh_combo_1" depart="2769.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening215" type="veh_combo_1" depart="2790.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening235" type="veh_combo_1" depart="2790.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening485" type="veh_combo_1" depart="2794.07" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening713" type="veh_combo_1" depart="2794.55" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening383" type="veh_combo_1" depart="2796.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening244" type="veh_combo_1" depart="2803.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_np11 np11_nt14 nt14_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening549" type="veh_combo_1" depart="2804.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening51" type="veh_combo_1" depart="2807.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening253" type="veh_combo_1" depart="2821.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt12 nt12_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening702" type="veh_combo_1" depart="2827.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening316" type="veh_combo_1" depart="2828.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening468" type="veh_combo_1" depart="2831.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening637" type="veh_combo_1" depart="2837.78" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening497" type="veh_combo_1" depart="2840.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening556" type="veh_combo_1" depart="2844.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening156" type="veh_combo_1" depart="2846.98" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8 nt8_np6"/>
+    </vehicle>
+    <vehicle id="HDV_evening310" type="veh_combo_1" depart="2850.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening71" type="veh_combo_1" depart="2853.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening392" type="veh_combo_1" depart="2854.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening273" type="veh_combo_1" depart="2859.12" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1 nt1_np1"/>
+    </vehicle>
+    <vehicle id="HDV_evening81" type="veh_combo_1" depart="2863.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening675" type="veh_combo_1" depart="2868.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening557" type="veh_combo_1" depart="2870.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening177" type="veh_combo_1" depart="2877.51" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_nt4 nt4_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening202" type="veh_combo_1" depart="2886.10" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np13 np13_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening464" type="veh_combo_1" depart="2898.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening94" type="veh_combo_1" depart="2913.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening540" type="veh_combo_1" depart="2922.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_np2 np2_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening617" type="veh_combo_1" depart="2925.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt9 nt9_nt5 nt5_np15 np15_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening590" type="veh_combo_1" depart="2926.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening718" type="veh_combo_1" depart="2927.41" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening168" type="veh_combo_1" depart="2929.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening307" type="veh_combo_1" depart="2932.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening254" type="veh_combo_1" depart="2936.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening558" type="veh_combo_1" depart="2938.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening199" type="veh_combo_1" depart="2942.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4"/>
+    </vehicle>
+    <vehicle id="HDV_evening231" type="veh_combo_1" depart="2945.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15 nt15_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening4" type="veh_combo_1" depart="2950.16" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_np7 np7_nt12 nt12_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening188" type="veh_combo_1" depart="2950.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening121" type="veh_combo_1" depart="2951.61" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt4 nt4_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening368" type="veh_combo_1" depart="2951.65" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_np2 np2_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening680" type="veh_combo_1" depart="2953.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening515" type="veh_combo_1" depart="2956.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening671" type="veh_combo_1" depart="2966.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening120" type="veh_combo_1" depart="2982.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening602" type="veh_combo_1" depart="2984.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3 np3_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening141" type="veh_combo_1" depart="2986.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening578" type="veh_combo_1" depart="2991.19" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening265" type="veh_combo_1" depart="2992.52" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening474" type="veh_combo_1" depart="2998.05" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening542" type="veh_combo_1" depart="2999.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening290" type="veh_combo_1" depart="3004.63" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening270" type="veh_combo_1" depart="3012.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening601" type="veh_combo_1" depart="3021.44" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening451" type="veh_combo_1" depart="3025.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8 np8_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening90" type="veh_combo_1" depart="3029.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening339" type="veh_combo_1" depart="3038.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening242" type="veh_combo_1" depart="3041.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening252" type="veh_combo_1" depart="3043.22" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening130" type="veh_combo_1" depart="3043.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_np7"/>
+    </vehicle>
+    <vehicle id="HDV_evening151" type="veh_combo_1" depart="3054.41" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening282" type="veh_combo_1" depart="3060.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening440" type="veh_combo_1" depart="3060.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2 np2_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening659" type="veh_combo_1" depart="3063.37" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_np3 np3_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening345" type="veh_combo_1" depart="3065.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt15 nt15_nt14 nt14_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening314" type="veh_combo_1" depart="3069.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening218" type="veh_combo_1" depart="3069.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening125" type="veh_combo_1" depart="3072.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_nt12 nt12_nt16 nt16_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening80" type="veh_combo_1" depart="3072.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16 nt16_np8"/>
+    </vehicle>
+    <vehicle id="HDV_evening291" type="veh_combo_1" depart="3090.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt10"/>
+    </vehicle>
+    <vehicle id="HDV_evening133" type="veh_combo_1" depart="3096.71" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening496" type="veh_combo_1" depart="3105.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening224" type="veh_combo_1" depart="3116.95" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np13"/>
+    </vehicle>
+    <vehicle id="HDV_evening501" type="veh_combo_1" depart="3124.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening115" type="veh_combo_1" depart="3126.01" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening284" type="veh_combo_1" depart="3141.88" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening112" type="veh_combo_1" depart="3163.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening380" type="veh_combo_1" depart="3163.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening681" type="veh_combo_1" depart="3171.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening23" type="veh_combo_1" depart="3181.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_np7 np7_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening341" type="veh_combo_1" depart="3181.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening261" type="veh_combo_1" depart="3182.42" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening478" type="veh_combo_1" depart="3190.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening586" type="veh_combo_1" depart="3194.56" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10"/>
+    </vehicle>
+    <vehicle id="HDV_evening627" type="veh_combo_1" depart="3196.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening462" type="veh_combo_1" depart="3200.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening579" type="veh_combo_1" depart="3207.59" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt5 nt5_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening697" type="veh_combo_1" depart="3233.29" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt14 nt14_np11 np11_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening194" type="veh_combo_1" depart="3234.64" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening548" type="veh_combo_1" depart="3235.54" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening279" type="veh_combo_1" depart="3235.57" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16"/>
+    </vehicle>
+    <vehicle id="HDV_evening396" type="veh_combo_1" depart="3241.97" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening633" type="veh_combo_1" depart="3242.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9 nt9_np14 np14_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening410" type="veh_combo_1" depart="3243.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt2 nt2_np2"/>
+    </vehicle>
+    <vehicle id="HDV_evening544" type="veh_combo_1" depart="3245.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_nt12 nt12_nt11"/>
+    </vehicle>
+    <vehicle id="HDV_evening306" type="veh_combo_1" depart="3253.84" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt7 nt7_nt3 nt3_np3"/>
+    </vehicle>
+    <vehicle id="HDV_evening386" type="veh_combo_1" depart="3259.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt8 nt8_np6 np6_nt8 nt8_nt7 nt7_nt6 nt6_nt5 nt5_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening365" type="veh_combo_1" depart="3261.34" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_np7 np7_nt12 nt12_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening250" type="veh_combo_1" depart="3262.76" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt4 nt4_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening436" type="veh_combo_1" depart="3263.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt14 nt14_nt15 nt15_nt16 nt16_np8 np8_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening354" type="veh_combo_1" depart="3266.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_np1 np1_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening647" type="veh_combo_1" depart="3268.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt8 nt8_np6 np6_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening346" type="veh_combo_1" depart="3274.93" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening138" type="veh_combo_1" depart="3282.68" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening196" type="veh_combo_1" depart="3294.66" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening132" type="veh_combo_1" depart="3297.18" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening479" type="veh_combo_1" depart="3302.30" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt4 nt4_np4 np4_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening435" type="veh_combo_1" depart="3308.90" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening167" type="veh_combo_1" depart="3316.85" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening595" type="veh_combo_1" depart="3344.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt6"/>
+    </vehicle>
+    <vehicle id="HDV_evening663" type="veh_combo_1" depart="3348.82" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening331" type="veh_combo_1" depart="3351.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt3 nt3_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening676" type="veh_combo_1" depart="3354.72" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening525" type="veh_combo_1" depart="3355.26" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening632" type="veh_combo_1" depart="3359.03" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt4 nt4_np5"/>
+    </vehicle>
+    <vehicle id="HDV_evening97" type="veh_combo_1" depart="3365.36" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening408" type="veh_combo_1" depart="3368.75" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening536" type="veh_combo_1" depart="3373.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening186" type="veh_combo_1" depart="3374.99" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt15 nt15_nt14 nt14_nt13 nt13_np12"/>
+    </vehicle>
+    <vehicle id="HDV_evening654" type="veh_combo_1" depart="3378.45" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt10 nt10_nt14 nt14_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening427" type="veh_combo_1" depart="3381.02" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening31" type="veh_combo_1" depart="3381.69" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening221" type="veh_combo_1" depart="3385.87" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening353" type="veh_combo_1" depart="3389.24" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening645" type="veh_combo_1" depart="3397.39" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt14 nt14_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening667" type="veh_combo_1" depart="3399.25" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening192" type="veh_combo_1" depart="3405.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_np15"/>
+    </vehicle>
+    <vehicle id="HDV_evening53" type="veh_combo_1" depart="3425.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_np5 np5_nt4"/>
+    </vehicle>
+    <vehicle id="HDV_evening189" type="veh_combo_1" depart="3426.28" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt8 nt8_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening99" type="veh_combo_1" depart="3435.74" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt10 nt10_nt11 nt11_nt15 nt15_np10 np10_nt15"/>
+    </vehicle>
+    <vehicle id="HDV_evening580" type="veh_combo_1" depart="3441.38" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening364" type="veh_combo_1" depart="3452.46" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_np14"/>
+    </vehicle>
+    <vehicle id="HDV_evening191" type="veh_combo_1" depart="3453.47" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening420" type="veh_combo_1" depart="3454.58" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt11 nt11_nt7 nt7_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening342" type="veh_combo_1" depart="3468.15" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening411" type="veh_combo_1" depart="3476.09" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_np13 np13_nt13 nt13_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening589" type="veh_combo_1" depart="3478.04" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_np3 np3_nt3 nt3_nt7"/>
+    </vehicle>
+    <vehicle id="HDV_evening352" type="veh_combo_1" depart="3490.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt10 nt10_nt11 nt11_nt12 nt12_nt16 nt16_np9 np9_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening232" type="veh_combo_1" depart="3498.49" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt10 nt10_nt9"/>
+    </vehicle>
+    <vehicle id="HDV_evening114" type="veh_combo_1" depart="3523.70" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt5"/>
+    </vehicle>
+    <vehicle id="HDV_evening243" type="veh_combo_1" depart="3533.43" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt3 nt3_nt2 nt2_nt1 nt1_np16 np16_nt1"/>
+    </vehicle>
+    <vehicle id="HDV_evening530" type="veh_combo_1" depart="3541.21" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt9 nt9_nt13 nt13_nt14"/>
+    </vehicle>
+    <vehicle id="HDV_evening583" type="veh_combo_1" depart="3541.92" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt16"/>
+    </vehicle>
+    <vehicle id="HDV_evening104" type="veh_combo_1" depart="3545.48" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt5 nt5_nt1 nt1_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening425" type="veh_combo_1" depart="3545.62" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt3 nt3_nt2 nt2_np2 np2_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening295" type="veh_combo_1" depart="3554.81" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening673" type="veh_combo_1" depart="3562.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt7 nt7_nt6 nt6_nt10 nt10_nt14 nt14_np11"/>
+    </vehicle>
+    <vehicle id="HDV_evening505" type="veh_combo_1" depart="3566.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt12 nt12_nt8"/>
+    </vehicle>
+    <vehicle id="HDV_evening644" type="veh_combo_1" depart="3567.23" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening686" type="veh_combo_1" depart="3567.86" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening126" type="veh_combo_1" depart="3569.32" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt6_nt7 nt7_nt11 nt11_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening52" type="veh_combo_1" depart="3573.33" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt2"/>
+    </vehicle>
+    <vehicle id="HDV_evening638" type="veh_combo_1" depart="3575.19" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt7_nt11 nt11_nt12 nt12_nt16 nt16_np9"/>
+    </vehicle>
+    <vehicle id="HDV_evening653" type="veh_combo_1" depart="3576.40" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt9 nt9_nt13 nt13_np12 np12_nt13"/>
+    </vehicle>
+    <vehicle id="HDV_evening685" type="veh_combo_1" depart="3592.08" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt10_nt6 nt6_nt7 nt7_nt11 nt11_nt15 nt15_nt16 nt16_nt12"/>
+    </vehicle>
+    <vehicle id="HDV_evening463" type="veh_combo_1" depart="3592.73" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3"/>
+    </vehicle>
+    <vehicle id="HDV_evening263" type="veh_combo_1" depart="3596.80" departLane="free" departSpeed="max" fromTaz="1" toTaz="2">
+        <route edges="nt11_nt10 nt10_nt6 nt6_nt2 nt2_nt3 nt3_nt4 nt4_nt8"/>
+    </vehicle>
+</routes>
